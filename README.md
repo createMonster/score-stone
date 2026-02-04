@@ -1,66 +1,69 @@
 # Score Stone
 
-Score Stone 是一个专注于探索和展示矿石与宝石能量的交互式应用。通过精美的界面，用户可以探索不同石头的特性、评分标准以及每日推荐。
+> 石头是时间的标本，是凝固的能量。
 
-## 🌟 功能特性
+Score Stone 不仅仅是一个矿石图鉴，它是一个关于“价值”与“连接”的实验场。在这里，我们尝试用理性的标尺（Score），去丈量感性的共鸣（Stone）。
 
-- **今日之石 (Today Stone)**: 每日推荐一款特色石头，展示其独特魅力。
-- **画廊 (Gallery)**: 浏览完整的石头收藏，包括玛瑙、琥珀、紫水晶、玉石等多种珍稀矿石。
-- **多维评分 (Dimensions)**: 从不同维度解析石头的价值与能量。
-- **评分标准 (Criteria)**: 详细的评价体系说明。
+我们相信，每一块石头都有其独特的频率。通过数字化的维度解构自然的造物，我们希望不仅能展示它们的美，更能帮助你找到那块能与你产生共鸣的基石。
 
-## 🛠️ 技术栈
+## � 探索与发现
 
-- **前端框架**: [React](https://react.dev/) (v19)
-- **构建工具**: [Vite](https://vitejs.dev/)
-- **语言**: [TypeScript](https://www.typescriptlang.org/)
-- **样式**: [Tailwind CSS](https://tailwindcss.com/)
-- **UI 组件库**: [shadcn/ui](https://ui.shadcn.com/)
-- **图标**: [Lucide React](https://lucide.dev/)
+- **今日之石 (Daily Encounter)**  
+  每一天，都有一块石头在等待。也许不是你选择了它，而是当下的能量吸引了它。
 
-## 🚀 快速开始
+- **众生相 (The Gallery)**  
+  阅尽大地的馈赠。从玛瑙的流动纹理到黑曜石的深邃凝视，在这里浏览完整的矿石收藏，看见时间的千姿百态。
 
-### 前置要求
+- **多维解析 (Dimensions)**  
+  只有莫氏硬度是不够的。我们建立了一套多维坐标系，从色彩张力、纹理深度到能量场域，立体地解读每一块石头的性格。
 
-确保你的本地环境已安装 [Node.js](https://nodejs.org/) (推荐 v18+)。
+- **评价体系 (Criteria)**  
+  建立标准，并非为了设限，而是为了更清晰地理解。我们提供详细的评分指引，借由这些规则，去逼近那些不可言说的美。
 
-### 安装依赖
+## 🛠️ 构建基石
 
+本项目由现代 Web 技术精心打磨而成：
+
+- **React** (v19) - 视图层的核心，构建流畅的交互体验。
+- **TypeScript** - 为代码注入类型系统，如同晶体结构般严谨。
+- **Vite** - 极速的构建工具，让开发体验如行云流水。
+- **Tailwind CSS** - 原子化的样式方案，灵活而高效。
+- **shadcn/ui** - 优雅、可访问的组件系统。
+
+## 🚀 开始旅程
+
+### 准备工作
+确保你的环境已安装 [Node.js](https://nodejs.org/) (推荐 v18+)。
+
+### 启动
 ```bash
+# 安装依赖
 npm install
-```
 
-### 启动开发服务器
-
-```bash
+# 唤醒开发环境
 npm run dev
 ```
+访问 `http://localhost:5173`，开始你的探索。
 
-打开浏览器访问 `http://localhost:5173` 即可查看应用。
-
-### 构建生产版本
-
+### 凝结
 ```bash
+# 构建生产版本
 npm run build
 ```
 
-## 📂 项目结构
+## 📂 结构概览
 
 ```
 score-stone/
-├── public/          # 静态资源文件
 ├── src/
-│   ├── components/  # 可复用的 UI 组件
-│   ├── hooks/       # 自定义 React Hooks
-│   ├── lib/         # 工具函数
-│   ├── sections/    # 主要页面区块 (Hero, Gallery, TodayStone 等)
-│   ├── App.tsx      # 应用主组件
-│   └── main.tsx     # 入口文件
-├── index.html       # HTML 模板
-├── package.json     # 项目依赖与脚本
-└── vite.config.ts   # Vite 配置文件
+│   ├── sections/    # 核心篇章 (Hero, Gallery, TodayStone...)
+│   ├── components/  # 基础构件
+│   ├── lib/         # 逻辑脉络
+│   └── hooks/       # 状态流转
+├── public/          # 静态映像
+└── vite.config.ts   # 工程配置
 ```
 
-## 📄 许可证
+## 📄 协议
 
 [MIT](LICENSE)
